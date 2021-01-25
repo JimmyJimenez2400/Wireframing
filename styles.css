@@ -28,7 +28,7 @@
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 15px;
     font-size: 36px;
     margin-left: 50px;
 }
@@ -39,9 +39,11 @@
 }
 
 /*========= SIDEBAR RESPONSIVE ========*/
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
+@media screen and (max-width: 680px) {
+    .sidenav {padding-top: 45px;}
+    .sidenav {width: 150px;}
     .sidenav a {font-size: 18px;}
+
 }
 
 /*========== NAVBAR ===========*/
